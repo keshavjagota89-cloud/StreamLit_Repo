@@ -1,3 +1,8 @@
+import streamlit as st
+import google.generativeai as genai
+import PyPDF2
+genai.configure(api_key="AIzaSyDwzkmdPpbRX1SOTDkH8UpNTp4zG2lVnNU")
+
 model = genai.GenerativeModel("gemini-2.5-pro")
 st.set_page_config(page_title="PDF Chatbot using Gemini")
 st.title("PDF Chatbot using Gemini")
