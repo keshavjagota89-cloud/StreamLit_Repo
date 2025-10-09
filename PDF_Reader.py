@@ -1,4 +1,4 @@
-model = genai.GenerativeModel("gemini-2.5-pro")
+
 st.set_page_config(page_title="PDF Chatbot using Gemini")
 st.title("PDF Chatbot using Gemini")
 st.write("Upload a PDF, then ask questions from it")
