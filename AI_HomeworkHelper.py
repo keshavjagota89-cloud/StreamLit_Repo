@@ -17,7 +17,7 @@ agent = st.sidebar.radio("Pick your Helper Agent",("Maths Agent","Grammar Agent"
 
 #Agent workflows
 #Math Agent section
-if agent == "Math Agent":
+if agent == "Maths Agent":
   st.subheader("Math Agent")
   question = st.text_input("Enter your Math question:")
   if st.button("Ask Math Agent"):
