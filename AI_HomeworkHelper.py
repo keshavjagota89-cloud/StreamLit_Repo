@@ -38,3 +38,14 @@ elif agent == "Grammar Agent":
       st.success(response.text)
     else: 
        st.warning("Please paste something for checking")
+
+elif agent == "Explainer Agent":
+  st.subheader("Explainer Agent") 
+  topic = st.text_input("What should I explain:")
+  if st.button("Ask Explainer Agent"):
+    if topic.strip():
+      prompt = f"Explain this topic in simple words for a 10 year old kid: {topic}"
+      response = model.generate_content(prompt)
+      st.success(response.text)
+    else: 
+       st.warning("Please enter a topic to explain")
