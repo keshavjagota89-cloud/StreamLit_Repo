@@ -6,7 +6,7 @@ from datetime import date
 
 
 # --- Gemini API Key ---
-genai.configure(api_key="AIzaSyDwzkmdPpbRX1SOTDkH8UpNTp4zG2lVnNU")  # ← Replace your key
+genai.configure(api_key="AIzaSyCfQX3mt_Fq8ZNtvkpENnPztnT0e1TKoj0")  # ← Replace your key
 model = genai.GenerativeModel("gemini-2.5-pro")
 
 
